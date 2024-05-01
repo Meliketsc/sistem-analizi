@@ -1,0 +1,151 @@
+body {
+    padding-top: 120px; 
+}
+.gif-container {
+    margin-top: 20px; 
+}
+
+
+.yamaha-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    /* max-width: 600px; */
+  }
+  
+  .yamaha-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(20% - 20px);
+  }
+  
+  .yamaha-item img {
+    width: 100%;
+  }
+  
+  .yamaha-item p {
+    margin: 10px 0;
+  }
+
+  
+
+  .yamaha-info .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .yamaha-info .row .col p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .yamaha-info div img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+
+
+  body {
+    background-color: #f5f5f5; /* Arka plan rengi */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Yazı tipi */
+}
+
+.main-content {
+    padding-top: 20px; /* İçeriğin üst kısmında boşluk bırakır */
+}
+
+/* Kategori kartları için stil ayarları */
+.category-card {
+    background-color: #ffffff; /* Kartların arka plan rengi */
+    border-radius: 8px; /* Kenar yuvarlaklığı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+    overflow: hidden; /* İçerik taştığında gizler */
+    margin-bottom: 30px; /* Alt kartlar arası boşluk */
+}
+
+.category-card img {
+    width: 100%; /* Görselin kartın genişliğine uymasını sağlar */
+    object-fit: cover; /* Görselin boyutunu koruyarak kutuya sığmasını sağlar */
+    height: 250px; /* Görselin yüksekliği */
+}
+
+.category-card h2 {
+    font-size: 20px; /* Başlık font büyüklüğü */
+    margin: 12px 0; /* Başlık üst ve alt boşluğu */
+    padding: 0 15px; /* Başlık iç boşluğu */
+}
+
+.category-card p {
+    padding: 0 15px 15px; /* Paragrafın iç boşluğu */
+}
+
+/* Buton özelleştirmeleri */
+.btn-secondary {
+    background-color: #007bff; /* Buton arka plan rengi */
+    border-color: #007bff; /* Buton kenarlık rengi */
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3; /* Butona tıklandığında arka plan rengi */
+    border-color: #0056b3; /* Butona tıklandığında kenarlık rengi */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

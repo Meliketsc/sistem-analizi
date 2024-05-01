@@ -1,0 +1,24 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .back-to-top:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .back-to-top {
+      display: block;
+    }
+  }
+  
